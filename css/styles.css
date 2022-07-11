@@ -87,6 +87,7 @@ button:hover{
 header {
     background-color: blue;
 }
+
 .logo{
     width: 80px;
     height: 80px;
@@ -411,8 +412,8 @@ h4 {
 }
 
 button{
-    background-color: #ae0e0e;
-    border: #ae0e0e solid 10px;
+    background-color: #ae0eab;
+    border: #71013e solid 10px;
     border-radius: 15px;
     color: bisque;
     padding: 10px;
