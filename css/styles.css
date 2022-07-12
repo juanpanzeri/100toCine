@@ -85,28 +85,28 @@ button:hover{
 /* NAVEGACION */
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: blue;
+    align-items: flex-end;
 }
 
-.logo{
+.header__logo{
+    display: flex;
     width: 80px;
     height: 80px;
 }
 .header__nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    font-size: 20px;
 }
 .header__lista{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     list-style: none;
     padding: 0 16px;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: flex-end;
-    flex-grow: 1;
 }
 
 .header__item{
