@@ -102,6 +102,10 @@ header {
 .img__logo {
     border-radius: 10px;
 }
+
+.img__logo:hover{
+    transform: scale(1.05);
+}
 .header__nav {
     font-size: 20px;
 }
