@@ -26,6 +26,10 @@ ul {
     height: 300px;
 }
 
+input:focus{ /* otro ejemplo de pseudoclase */
+    color: red;
+}
+
 /* ANIMACIONES */
 .texto__gradiente {
     display: inline-block;
@@ -174,6 +178,17 @@ header {
     gap: 15px;
     margin: 15px;
 }
+/* ALGUNOS EJEMPLOS DE PSEUDO CLASES */
+.main__tarjetas article:not(.card__tres) { /* solo se puede poner una clases en el parentesis */
+    background-color: aqua;
+    color:  red;
+}
+
+.main__tarjetas article:first-child { /* no afecto a todas las terjetas sino a una sola */
+    background-color: orange;
+}
+
+
 
 .card__uno{
     grid-column: 1/2;
@@ -243,7 +258,8 @@ footer {
     padding-bottom: 12px;
 }
 
-a {
+a:visited {
+    color: #ae0e0e;
     text-decoration: none;
     color: lightgrey;
 }
@@ -441,12 +457,11 @@ button{
 }
 
 
-/* MEDIA QUERY DE CELULAR*/
-/* un 99% de las veces sempre debe haber una sola columna, 
+/* MEDIA QUERY DE CELULAR*/ /* un 99% de las veces sempre debe haber una sola columna, 
 el 0.1% son galerias cuadriculadas que pueden tener hasta 3 columnas */
+/* son las media queries que se usan en bootstrap, son un estandar */
 @media (min-width: 320px) and (max-width: 575px) {
-/* SOLO VAN A CAMBIAR LOS PROPIEDADES QEUE YO MENCIONE EN LA MEDIA QUERY,
-ES DECIR QUE EN LA MEDIA QUERI SOLO VAN LAS QUE QUIERO MODIFICAR */
+/* SOLO VAN A CAMBIAR LOS PROPIEDADES QEUE YO MENCIONE EN LA MEDIA QUERY, ES DECIR QUE EN LA MEDIA QUERI SOLO VAN LAS QUE QUIERO MODIFICAR */
     header {
         height: auto;
     }

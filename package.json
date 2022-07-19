@@ -1,0 +1,23 @@
+{
+  "name": "100tocine-panzeri",
+  "version": "1.0.0",
+  "description": "<h1>100toCine</h1> <p>Este sitio es para un blog de cine para el curso de desarrollo web</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanpanzeri/100toCine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanpanzeri/100toCine/issues"
+  },
+  "homepage": "https://github.com/juanpanzeri/100toCine#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
