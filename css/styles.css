@@ -87,7 +87,17 @@ button:hover{
 
 /* NAVEGACION */
 
-header {
+/* header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    align-items: flex-end;
+    padding: 10px;
+    height: 130px;
+} */
+
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -99,12 +109,14 @@ header {
 
 .header__logo{
     display: flex;
-    width: 100px;
-    height: 110px;
+    /* width: 100px;
+    height: 110px; */
 }
 
 .img__logo {
     border-radius: 10px;
+    width: 100px;
+
 }
 
 .img__logo:hover{
